@@ -1,2 +1,2 @@
 # personal site
- benjessup.dev
+ https://benjessup.dev

@@ -1,0 +1,77 @@
+:root {
+    --mainColor: #eaeaea;
+    --secondaryColor: #fff;
+
+    --borderColor: #c1c1c1;
+
+    --mainText: black;
+    --secondaryText: #4b5156;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--mainColor);
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+    color: var(--mainText);
+    font-family: 'Lora', serif;
+}
+
+p, li, span, label, input, textarea, .nav {
+    color: var(--secondaryText);
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+a {
+    color: #2eb1c5
+}
+
+h1 { font-size: 56px }
+h2 { font-size: 36px }
+h3 { font-size: 28px }
+h4 { font-size: 24px }
+h5 { font-size: 20px }
+h6 { font-size: 16px }
+
+.s1 {
+    background-color: var(--mainColor);
+    /* border-bottom: 1px solid var(--borderColor); */
+    overflow: auto;
+}
+
+.s2 {
+    background-color: var(--secondaryColor);
+    border-bottom: 1px solid var(--borderColor);
+    overflow: auto;
+}
+
+.main-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 20em;
+}
+
+.intro {
+    background: var(--secondaryColor);
+    border: 1px solid var(--borderColor);
+}
+
+.nav {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .main-container {
+        width: 95%;
+    }
+}

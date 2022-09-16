@@ -1,35 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script>if(!sessionStorage.getItem("_swa")&&document.referrer.indexOf(location.protocol+"//"+location.host)!== 0){fetch("https://counter.dev/track?"+new URLSearchParams({referrer:document.referrer,screen:screen.width+"x"+screen.height,user:"benjessup",utcoffset:"-6"}))};sessionStorage.setItem("_swa","1");</script>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Free counter.dev analytics -->
+    <script>
+      if (
+        !sessionStorage.getItem("_swa") &&
+        document.referrer.indexOf(location.protocol + "//" + location.host) !==
+          0
+      ) {
+        fetch(
+          "https://counter.dev/track?" +
+            new URLSearchParams({
+              referrer: document.referrer,
+              screen: screen.width + "x" + screen.height,
+              user: "benjessup",
+              utcoffset: "-6",
+            })
+        );
+      }
+      sessionStorage.setItem("_swa", "1");
+    </script>
+
+    <script src="index.js"></script>
+
     <title>Ben Jessup</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" type="text/css" href="default.css">
-</head>
-<body>
-    <section class="s1">
-        <div class="main-container">
-            <div class="hero">
-                <h1>Ben Jessup</h1>
-            </div>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="default.css" />
+  </head>
 
-            <div class="nav">
-                <div class="row">
-                    <div class="col">
-                        <a href="https://letterboxd.com/benjessup">Films</a>
-                    </div>
-                    <div class="col">
-                        <a href="https://www.instagram.com/benjamin.jessup/">Photos</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <body>
+    <section class="hero container">
+      <h2 class="hero-nm">Ben Jessup</h2>
+      <p class="hero-abt">
+        Software
+        <a href="https://github.com/bdjessup" target="_blank" rel="noreferrer"
+          >developer</a
+        >
+        &
+        <a
+          href="https://letterboxd.com/benjessup"
+          target="_blank"
+          rel="noreferrer"
+          >film</a
+        >
+        lover. Currently building a website called
+        <a href="https://www.watchful.video" target="_blank" rel="noreferrer"
+          >watchful</a
+        >
+        that helps people find what to watch.
+      </p>
+      <p>
+        Here's a link to my
+        <a href="https://read.cv/benjessup" target="_blank" rel="noreferrer"
+          >resume</a
+        >.
+      </p>
     </section>
-</body>
+  </body>
 </html>

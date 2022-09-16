@@ -8,6 +8,17 @@
     --secondaryText: #4b5156;
 }
 
+.lightMode {
+    --mainColor: #252730;
+    --secondaryColor: #fff;
+
+    --borderColor: #c1c1c1;
+
+    --mainText: white;
+    --secondaryText: #4b5156;
+}
+
+
 html, body {
     padding: 0;
     margin: 0;
@@ -65,7 +76,7 @@ h6 { font-size: 16px }
 }
 
 .nav {
-    display: grid;
+    /* display: grid; */
     justify-content: center;
     text-align: center;
 }
@@ -75,3 +86,16 @@ h6 { font-size: 16px }
         width: 95%;
     }
 }
+
+li { 
+    font-size: 30px;
+    list-style: none; 
+    text-align: center; 
+} 
+
+
+
+
+
+
+

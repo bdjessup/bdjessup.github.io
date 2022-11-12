@@ -1,2 +1,2 @@
 # personal site
-[https://benjessup.dev](here's the link)
+https://benjessup.dev
